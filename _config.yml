@@ -1,0 +1,105 @@
+# Site settings
+title: C'est La Vie  
+SEOTitle: 许伦杰的博客 | Mr.Xu 
+header-img: img/The-Starry-Night.jpg
+email: xulunjie000@gmail.com
+description: "  | 许伦杰，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Mr.Xu许伦杰 的个人博客，与你一起发现更大的世界。"
+keyword: "许伦杰, Mr.Xu许伦杰, Mr.Xu,许伦杰的博客, Mr.Xu Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+url: "https://github.com/JackMouse666/JackMouse666.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+#gitment 
+#owner: JackMouse666
+
+
+
+#来必力
+#livere_uid: MTAyMC8zNzc5Ni8xNDMyNw==
+
+# SNS settings
+RSS: false
+zhihu_username:     xu-lun-jie-75
+github_username:    JackMouse666
+#twitter_username:   Mr.Xu
+facebook_username:  jack.xu.50596013
+#linkedin_username:  firstname-lastname-idxxxx
+wechat_username:  xulunjie
+
+# Support for LiveRe comments system.
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+#livere_uid: MTAyMC8zNzc5Ni8xNDMyNw==
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: JackMouse
+
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
+
+wechat-icon: /img/vincent.jpg
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "How many roads must a man walk down,Before they call him a man"
+sidebar-avatar: /img/vincent.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+#friends: [
+#    {
+    #     title: "Su",
+    #     href: "http://su.gallery/"
+    # 
+#    }
+#]
